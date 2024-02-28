@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>Mech Work Toggler</name>
+	<author>Local Ghost</author>
+	<description></description>
+	<packageId>localghost.mechworktoggler</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+</ModMetaData>

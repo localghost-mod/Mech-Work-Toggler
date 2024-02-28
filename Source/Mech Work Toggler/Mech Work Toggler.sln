@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mech Work Toggler", "Mech Work Toggler.csproj", "{BDE647EF-803B-4401-8FC2-5CF044F64947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE647EF-803B-4401-8FC2-5CF044F64947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE647EF-803B-4401-8FC2-5CF044F64947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE647EF-803B-4401-8FC2-5CF044F64947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE647EF-803B-4401-8FC2-5CF044F64947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A577A885-7436-4340-AE75-1D47D25CF02E}
+	EndGlobalSection
+EndGlobal
