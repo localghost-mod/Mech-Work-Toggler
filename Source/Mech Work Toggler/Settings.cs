@@ -7,9 +7,13 @@ using Verse;
 namespace Mech_Work_Toggler
 {
     [StaticConstructorOnStartup]
-    public static class Init
+    static class Startup
     {
-        static Init() => MechWorkTogglerMod.settings.toggledWorkGivers.ToList().ForEach(name => DefDatabase<WorkGiverDef>.GetNamed(name).canBeDoneByMechs ^= true);
+        static Startup()
+        {
+            MechWorkTogglerMod.settings.toggledWorkGivers = MechWorkTogglerMod.settings.toggledWorkGivers.Where(name => DefDatabase<WorkGiverDef>.GetNamedSilentFail(name) != null).ToHashSet();
+            MechWorkTogglerMod.settings.toggledWorkGivers.ToList().ForEach(name => DefDatabase<WorkGiverDef>.GetNamed(name).canBeDoneByMechs ^= true);
+        }
     }
 
     public class Settings : ModSettings
